@@ -1,0 +1,69 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
+    background-color: #f0e8f4; /* Light pastel purple background */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #ff6f91; /* Soft pink for the title */
+    text-align: center;
+    text-shadow: 1px 1px 2px #fff; /* Subtle glow effect */
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px; /* Space between cells */
+    background-color: #fff5e6; /* Light peach background */
+    border-radius: 15px; /* Rounded corners */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #c3e0e5; /* Light blue for buttons */
+    border-radius: 50%; /* Circular buttons */
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+td:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    background-color: #b3d4d9; /* Slightly darker on hover */
+}
+
+input[type="number"] {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #ffe6f2; /* Light pink for input */
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: right;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: none;
+    font-size: 18px;
+    color: #ff6f91; /* Pink text for buttons */
+    cursor: pointer;
+    border-radius: 50%; /* Circular buttons */
+}
+
+button:hover {
+    color: #e65c81; /* Darker pink on hover */
+}
+
+thead td {
+    background-color: #ffe6f2; /* Match input background */
+    border-radius: 10px;
+}
