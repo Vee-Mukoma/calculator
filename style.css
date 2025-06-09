@@ -1,17 +1,13 @@
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif; /* Playful font */
     background-color: #f0e8f4; /* Light pastel purple background */
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
 
-h1 {
-    color: #ff6f91; /* Soft pink for the title */
-    text-align: center;
-    text-shadow: 1px 1px 2px #fff; /* Subtle glow effect */
-}
 
 table {
     border-collapse: separate;
