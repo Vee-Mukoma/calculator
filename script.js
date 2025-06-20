@@ -20,3 +20,10 @@ function btnACPressed(){
     newLine = true; //Sets newLine = true so the next digit starts fresh.
 }
 
+//for when an operator is pressed
+function operatorBtnPressed(operator){
+    currentOperator = operator;
+    value1 = parseInt(document.getElementById("myInput").value);
+    newLine = true;
+}
+
