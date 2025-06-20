@@ -14,3 +14,9 @@ function digitBtnPressed(button){
 }
 
 
+//for when AC is pressed
+function btnACPressed(){
+    document.getElementById("myInput").value = 0; //Resets input to zero
+    newLine = true; //Sets newLine = true so the next digit starts fresh.
+}
+
